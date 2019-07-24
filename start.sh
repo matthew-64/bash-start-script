@@ -33,6 +33,5 @@ function find_command() {
 if [ "$#" == "0" ]; then
 	show_keys	
 else
-	echo TEST
 	find_command $1
 fi
