@@ -4,7 +4,8 @@ user_input=$1
 declare -A commands=(
 	["intellij"]="/home/pi/Software/Coding/Intellij/idea-IC-191.7479.19/bin/idea.sh"
 	["pycharm"]="/home/pi/Software/Coding/PyCharm/pycharm-community-2019.1.3/bin/pycharm.sh"
-	["temp"]="vcgencmd measure_temp")
+	["temp"]="vcgencmd measure_temp"
+	["shutdown"]="sudo shutdown -h now")
 
 function show_keys() {
 	echo "Use one of the following shortcuts:"
